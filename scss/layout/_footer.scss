@@ -1,0 +1,67 @@
+.footer-container {
+    margin-top: -4rem;
+    padding-bottom: 10rem;
+}
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.databiz {
+    width: 113px;
+    height: 20px;
+}
+.audiphile {
+    width: 73px;
+    height: 36px;
+}
+.meet {
+    width: 89px;
+    height: 20px;
+}
+.maker {
+    width: 82px;
+    height: 24px;
+}
+
+
+@media screen and (max-width:1080px) {
+    .footer-container{
+        margin-top: 5rem;
+        align-items: center;
+    }
+    .footer-wrapper{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 0;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:510px) {
+    .footer-container{
+        padding-bottom: 5rem;
+    }
+    .footer-wrapper{
+        justify-content: space-between;
+    }
+    .databiz {
+        width: 81px;
+        height: 14px;
+    }
+    .audiphile {
+        width: 53px;
+        height: 26px;
+    }
+    .meet {
+        width: 64px;
+        height: 14px;
+    }
+    .maker {
+        width: 59px;
+        height: 17px;
+    }
+}
